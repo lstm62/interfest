@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>International Festival</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container">
+	<div class="banner">
+		<h1>International</h1>
+		<h2>Festival</h2>
+			<ul class='menu-banner'>
+				<li><a href="" class='btn btn-sm btn-default'>Calendar</a></li>
+				<li><a href="" class='btn btn-sm btn-default'>Register</a></li>
+				<li><a href="" class='btn btn-sm btn-default'>About</a></li>
+			</ul>
+	</div>
+  <!-- barra de navegacion -->
+	<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Activities</a></li>
+        <li><a href="#">Mini olympics</a></li>
+        <li><a href="#">Ministers</a></li>
+        <li><a href="#">Multimedia</a></li>
+        <li><a href="#">Sponsors</a></li>
+        <li><a href="#">Comments</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<%= yield %>
+  <hr>
+  <footer class="footer">
+    <h3 class='txt-center'>FOOTER TEXT OR DESCRIPTION</h3>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+.banner{
+	padding:10px;
+	background-color:#eaeaea;
+	position: relative;
+	text-transform:uppercase;
+}
+.banner h1{font-size:42px; font-weight: bolder;}
+.banner h2{padding:2px 2px 2px 50px; margin:0}
+
+.menu-banner{
+	list-style-type:none;
+	padding:0; margin: 0;
+	position: absolute;
+	bottom:10px; right:20px;
+}
+
+.menu-banner li{
+	display:inline-block;
+	margin: 4px; padding:5px;
+	transition:all 0.3s;
+}
+
+#img-world-flags{
+	position:relative;
+	background-image:url('world flags.png');
+	width:500px; height:500px;
+	margin:auto;
+	border:20px solid #ccc;
+	border-radius:250px;
+	background-size:100%;
+}
+
+.home-div{position:relative;}
+
+#stick{
+	position:absolute;
+	width:90%; height:10px;
+	background-color:#ccc;
+	left:5%; right:5%;
+	top:240px;
+}
+
+.img-home{
+	position:absolute;
+	width:30%;
+	height:200px;
+	border:1px solid #ccc;
+	padding:5px;
+}
+
+.home-div .image1, .home-div .image2{
+	top:30px;
+}
+
+.home-div .image1, .home-div .image3{
+	left:10%;
+	padding-right:100px;
+	text-align:left;
+}
+.home-div .image2, .home-div .image4{
+	right:10%;
+	padding-left:100px;
+	text-align:right;
+}
+
+.home-div .image3, .home-div .image4{
+	top:260px;
+}
+.home-div .image1{border-top-left-radius:20px}
+.home-div .image2{border-top-right-radius:20px}
+.home-div .image3{border-bottom-left-radius:20px}
+.home-div .image4{border-bottom-right-radius:20px}
+
+
+.txt-center{text-align:center;}
+
+.circulo{
+	display:inline-block;
+	width:80px; height:80px;
+	border-radius:40px;
+	line-height:80px;
+	background-color:#ccc;
+}
+.circulo:hover{
+	background-color:#999;
+	cursor:pointer;
+	transition:all 0.3s;
+}
+
+.logo{
+	display:inline-block;
+	width:180px; height:100px;
+	line-height:100px;
+	border:1px solid #ccc;
+	background-color:#eaeaea;
+}
