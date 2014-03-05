@@ -2,7 +2,9 @@
 <html>
 <head>
   <title>International Festival</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/assets/bootstrap.css" rel="stylesheet" media="screen">
+  <link href="/assets/style.css" rel="stylesheet" media="screen">
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -28,7 +30,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Home</a>
+      <a class="navbar-brand" href="#"><i class="glyphicon glyphicon-hom"></i> Home</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
