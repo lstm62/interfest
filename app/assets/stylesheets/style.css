@@ -1,3 +1,10 @@
+body{
+	background-image:url('pattern.png');
+}
+
+.container{
+	background-color:#fff;
+}
 .banner{
 	padding:10px;
 	background-color:#eaeaea;
